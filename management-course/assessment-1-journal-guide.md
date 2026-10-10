@@ -6,14 +6,25 @@
 
 | 项目 | 要求 |
 | --- | --- |
-| 数量 | 4 篇日志，从 Week 5 起；评分标准写的是 "fortnightly"，即**每两周（两次 tutorial）写一篇**，例如 Week 5–6、7–8、9–10、11–12（具体周次以 Canvas 为准） |
+| 数量 | 4 篇日志，评分标准写的是 "fortnightly"，即**每两周（两次 tutorial）写一篇**，分阶段提交（见下方时间表） |
 | 两次课合一篇 | 标题写明两次 tutorial 的名称和日期；Summary 简要覆盖两次课的内容，Reflection 找出两次课之间的联系，写成一个整体 |
 | 权重 | 40%（每篇按 100 分评分，合计折算为 40 分） |
-| 截止 | 21 Dec 23:59，并提交到 Canvas Assignment Dropbox |
+| 截止 | 分 4 次提交，最后 21 Dec 23:59 把 4 篇合并提交到 Canvas Assignment Dropbox 评分 |
+| 查重 | 日志会经过 **Turnitin** 检查 |
 | 格式 | 每篇另起一页，标明 **tutorial 名称和日期** |
-| 每篇结构 | (1) Tutorial Summary：2–3 段，300 词 ±5%（285–315 词）<br>(2) Self-Reflection：2–3 段，300 词 ±5%（285–315 词） |
+| 每篇结构 | (1) Tutorial Summary：2–3 段，300 词 ±5%（285–315 词）<br>(2) Self-Reflection：2–3 段，300 词 ±5%（285–315 词）<br>注：Lecture 1 课件写的是 ±10%，Canvas 写的是 ±5%，按更严格的 ±5% 写最稳妥 |
 | 每篇总字数 | 约 600 词 |
 | 迟交 | 每天扣 10%；超过 5 个自然日不予评分（除非获批延期） |
+
+### 提交时间表（Lecture 1 课件，标注 "Deadline TBC"，以 Canvas 为准）
+
+| 周次 | 提交 | 日期 |
+| --- | --- | --- |
+| Week 6, Tutorial 3 | 第 1 篇 | 23 Oct |
+| Week 8, Tutorial 5 | 第 2 篇 | 6 Nov |
+| Week 11, Tutorial 6 | 第 3 篇 | 27 Nov |
+| Week 13, Tutorial 8 | 第 4 篇 | 11 Dec |
+| Week 15, Tutorial 10 | 4 篇合并提交评分 | 21 Dec |
 
 ## 2. 评分标准拆解（每篇 100 分）
 
@@ -115,16 +126,21 @@ Paragraph 3 – Improvement plan (Now what?)
 - [ ] 用拼写和语法检查工具检查，并朗读一遍全文
 - [ ] 21 Dec 23:59 之前提交到 Canvas
 
-## 9. 与本课程模块的对应
+## 9. 20101 Management Skills 各周主题与可用理论
 
-如果你的 tutorial 主题与下列内容相关，可以用对应模块复习理论：
+课程主题依据 Lecture 1 课件。内容结构与 Whetten & Cameron《Developing Management Skills》（Pearson）一致；课件里教材写的是 TBC，以 Canvas 为准。
 
-| Tutorial 主题（常见） | 参考模块 |
-| --- | --- |
-| Self-awareness / Managing yourself, Time & stress management | [08 决策与自我管理](modules/08-decision-making-and-self-management.md) |
-| Communication, Feedback, Active listening | [03 沟通与反馈](modules/03-communication-and-feedback.md) |
-| Motivation, Teams | [05 激励与团队建设](modules/05-motivation-and-team.md) |
-| Delegation, Empowerment, Leadership styles | [04 授权与委派](modules/04-delegation.md) |
-| Conflict management, Negotiation | [07 冲突管理与困难谈话](modules/07-conflict-and-difficult-conversations.md) |
-| Problem solving, Decision making | [08 决策与自我管理](modules/08-decision-making-and-self-management.md) |
-| Goal setting, Performance, Coaching | [02](modules/02-goals-and-planning.md) / [06](modules/06-performance-management.md) |
+| Session | 主题 | 日志里可以用的理论 / 工具 | 参考模块 |
+| --- | --- | --- | --- |
+| 1 | Introduction to Management Skills | 管理技能的五个特征（behavioral, controllable, developable, interrelated, paradoxical）；VIA 品格优势（6 种美德、24 项优势）；Drucker (2005) *Managing Oneself* | [01](modules/01-role-transition.md) |
+| 2 | Developing Self-Awareness | 情绪智力、价值观、认知风格、对变化的态度、核心自我评价；Johari Window | [08](modules/08-decision-making-and-self-management.md) |
+| 3 | Managing Stress and Well-being | 压力源类型（时间、遭遇、情境、预期）；消除–韧性–应对；时间管理；艾森豪威尔矩阵 | [08](modules/08-decision-making-and-self-management.md) |
+| 4 | Solving Problems Analytically and Creatively | 分析式问题解决四步法；创造力的概念障碍；头脑风暴 | [08](modules/08-decision-making-and-self-management.md) |
+| 5 | Communicating Supportively | 支持性沟通原则（描述而非评价、聚焦问题而非人等）；辅导与咨询；倾听反应类型；SBI | [03](modules/03-communication-and-feedback.md) |
+| 6 | Gaining Power and Influence | 权力来源（个人 / 职位）；影响策略（retribution, reciprocity, reason） | [04](modules/04-delegation.md) |
+| 7 | Managing Performance | 绩效 = 能力 × 动机；期望理论；目标设定；强化与反馈 | [05](modules/05-motivation-and-team.md) / [06](modules/06-performance-management.md) |
+| 8 | Negotiating and Resolving Conflict | Thomas-Kilmann 五种冲突处理方式；立场 vs 利益；整合式与分配式谈判 | [07](modules/07-conflict-and-difficult-conversations.md) |
+| 9 | Building Effective Teams | Tuckman 团队发展阶段；团队角色；心理安全感 | [05](modules/05-motivation-and-team.md) |
+| 10 | Leading Positive Change | 积极偏差；变革领导框架 | — |
+
+**建议：** 课上做的问卷（如 VIA 品格优势调查）请截图或记下结果，日志里会用到。
