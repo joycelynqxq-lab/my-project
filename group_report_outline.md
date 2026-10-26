@@ -237,18 +237,26 @@
 | 7 Conclusion | 150 |
 | **正文合计** | **1,600**（允许 1,350–1,650） |
 
-## 建议分工（5 人）
-| 成员 | 负责内容 |
-|---|---|
-| A | 3 Introduction + 7 Conclusion + 1 Executive Summary + 统稿排版 |
-| B | 4.1 Rivalry + 4.2 New Entrants + Appendix A 模型图 |
-| C | 4.3 Suppliers + 4.4 Buyers + Appendix B |
-| D | 4.5 Substitutes + 4.6 Complements + 4.7 小结 |
-| E | 5 Key Issues + 6 Recommendations + References 格式检查 |
+## 分工（3 人，每人约 530 词正文）
+
+> 原则：**"谁分析的力量，谁写对应的威胁和建议"**，保证分析 → 威胁 → 建议的逻辑一条线贯通，也方便在互评（PLO 2.2）中体现各自的贡献
+
+| 成员 | 正文内容 | 词数 | 附录与其他 |
+|---|---|---|---|
+| **A（竞争线）** | 4.1 Rivalry（150）+ 4.2 New Entrants（120）+ 4.4 Buyers（110）+ T1 威胁（60）+ R1 建议（100） | ≈ 540 | Appendix A 六力模型图 |
+| **B（供应链线）** | 3 Introduction（200）+ 4.3 Suppliers（130）+ T2 威胁（60）+ R2 建议（100）+ 6.4 可行性（30） | ≈ 520 | Appendix B 强度评估表；References 汇总与 APA 格式检查 |
+| **C（生态线 + 统稿）** | 4.5 Substitutes（100）+ 4.6 Complements（120）+ 4.7 小结（70）+ 5 Key Issues 开头和 T3（80）+ R3 建议（100）+ 7 Conclusion（150） | ≈ 620 | 1 Executive Summary、Appendix C 映射表、统稿排版、目录、封面 |
+| **全员** | — | — | Appendix D Team Charter、Appendix E AI Declaration（各自如实填写） |
+
+- C 的正文稍多，但没有分到参考文献格式检查；如果 C 觉得负担重，可以把 7 Conclusion 交给 B
+- 每人至少负责找 **2–3 个近 5 年的来源**，并按 APA 格式整理好交给 B 汇总
+- 4.7 小结、Key Issues 表格和 Conclusion 要用到 A 和 B 的结论，所以 C 等 A、B 初稿完成后再定稿
 
 ## 时间线（倒推 11/13）
-- **11/1**：每人找好负责部分的 2–3 个来源（近 5 年）
-- **11/4**：Tutorial 的作业答疑课，带初稿去问 James
-- **11/8**：各部分初稿合并
-- **11/11**：统稿，检查字数、APA 格式、图表来源
+- **10/30**：三人开会确认分工，签 Team Charter
+- **11/1**：每人找好负责部分的 2–3 个来源（近 5 年），发给 B
+- **11/4**：Tutorial 的作业答疑课，A 和 B 带初稿去问 James
+- **11/7**：A、B 交初稿给 C
+- **11/9**：C 完成 4.7、Key Issues、Conclusion 和 Executive Summary，合并全文
+- **11/11**：三人一起通读：检查逻辑衔接、字数、APA 格式、图表来源
 - **11/12**：最终检查，提前一天提交
