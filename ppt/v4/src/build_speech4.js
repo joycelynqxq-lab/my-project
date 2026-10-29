@@ -32,7 +32,7 @@ const slides = [
     `所以我们把问题重新定义为——**${CORE}**`,
     "只追求第一次买意义不大，要在第一次体验里就埋好再买的理由。",
     "本质有两条：一是**线上种草、线下货架、产品体验三段断开**；二是**品牌、门店、内容创作者各做各的**，没有一起创造第一次尝鲜。",
-  ], n: "全篇转折点，语速放慢，核心问题原句念出。时间富余可以加一句：丁其磊老师也说，尝了不错才会继续买。" },
+  ], n: "全篇转折点，语速放慢，核心问题原句念出。时间富余可以加一句：丁其磊老师也说，买零食更多的是尝鲜，口感不差就会继续再买。" },
   { who: "A", t: "P5 我们的调研：4 种方法、1 条证据链", p: [
     "这些判断来自四种方法：同龄人访谈、小红书笔记分析、企业导师访谈和门店走访；问卷留到第二步前做验证。",
     "**问题找到了，下面看我们设计的闭环。**",
@@ -63,7 +63,7 @@ const table = new Table({ width: { size: 9026, type: WidthType.DXA }, columnWidt
 ] });
 
 const qa = [
-  ["15 个人的访谈够不够？", "现阶段是找问题，用的是访谈和经验萃取，看的是“为什么”；比例要靠第二步前约 200 份问卷验证，问卷的每道题都对应一个方案决定。"],
+  ["15 个人的访谈够不够？", "现阶段是找问题，用的是访谈和经验萃取，看的是“为什么”。丁其磊老师也提醒，面对面问出的十份比发出去的一百份更可靠；比例要靠第二步前约 200 份问卷验证，问卷的每道题都对应一个方案决定。"],
   ["行业数据是哪来的？", "龙头 2025 年度业绩公告、万辰集团招股书，营养标签新国标 GB 28050-2025；页面右下角都标了来源。"],
   ["为什么不只研究首购？", "年轻人本来就爱尝鲜，只尝不留，首购提升没有意义；所以要在第一次体验里就埋好复购的理由。"],
 ];
@@ -78,7 +78,7 @@ const doc = new Document({
     ],
   },
   sections: [{ properties: { page: { margin: { top: 1300, bottom: 1300, left: 1440, right: 1440 } } }, children: [
-    new Paragraph({ heading: HeadingLevel.TITLE, children: [new TextRun("一口尝鲜，一路复购｜演讲稿（制作1负责页面）")] }),
+    new Paragraph({ heading: HeadingLevel.TITLE, children: [new TextRun("一口尝鲜，一路复购｜演讲稿（制作1负责页面·最终版）")] }),
     new Paragraph({ children: [new TextRun({ text: "按第 4 版 PPT 大纲；封面、目录、三张分隔页、P2–P5、P14、P15", color: GREY })], spacing: { after: 200 } }),
     P("按每分钟约 230 字估算时长。讲稿是口语，不要逐字念 PPT；**红色加粗**的句子放慢、加重；黄色【】处要换成演讲人自己的内容。"),
     new Paragraph({ heading: HeadingLevel.HEADING_1, children: [new TextRun("时长总表")] }),
@@ -99,4 +99,5 @@ const doc = new Document({
     ]),
   ] }],
 });
+fs.writeFileSync(__dirname + "/notes.json", JSON.stringify(slides.map((x) => `【${x.who}｜约 ${x.sec} 秒】` + x.p.join("").replace(/\*\*/g, "") + "\n提示：" + x.n)));
 Packer.toBuffer(doc).then((b) => { fs.writeFileSync(process.argv[2], b); console.log("A", tot("A"), "B", tot("B"), "C", tot("C")); });

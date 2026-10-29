@@ -215,6 +215,9 @@ const CORE = "如何让 18–25 岁年轻人在量贩零食店第一次尝鲜美
   s.addText([{ text: "第【】组　组长：【】", options: { breakLine: true } }, { text: "组员：【】【】【】【】【】【】" }], { placeholder: "members" });
   s.addNotes("【C｜约 5 秒】让年轻人第一口就爱上，第二包自然会来。谢谢老师！");
 
+  // 备注栏统一用最终版讲稿（与 Word 演讲稿同源）
+  const NOTES = JSON.parse(require("fs").readFileSync(__dirname + "/notes.json", "utf8"));
+  pres.slides.forEach((sl, i) => { sl._slideObjects = sl._slideObjects.filter((o) => o._type !== "notes"); if (NOTES[i]) sl.addNotes(NOTES[i]); });
   await pres.writeFile({ fileName: OUT });
   await applyTheme(OUT, THEME);
   console.log("wrote", OUT);
