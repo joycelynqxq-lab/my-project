@@ -135,7 +135,7 @@ const CORE = "如何让 18–25 岁年轻人在量贩零食店第一次尝鲜美
   T(s, "各做各的，没有一起创造“第一次尝鲜”的体验", { x: 7.1, y: 5.3, w: 5.4, h: 0.45, fontSize: 14, color: C.text1, valign: "middle" });
   // 证据条
   await dot(s, FaQuoteLeft, 0.6, 6.1, 0.5, HEX.accent5, HEX.accent1);
-  T(s, [{ text: "零食消费“更多是一个尝鲜”，尝了不错才会继续买", options: { bold: true, color: C.text2, breakLine: true } }, { text: "企业导师 丁其磊老师；量贩渠道是“买手”，品牌话语权弱", options: { fontSize: 10, color: C.accent3 } }],
+  T(s, [{ text: "买零食“更多的是”尝鲜，口感不差“就会继续再买”", options: { bold: true, color: C.text2, breakLine: true } }, { text: "企业导师 丁其磊老师；渠道是“买手”，会到工厂来选货", options: { fontSize: 10, color: C.accent3 } }],
     { x: 1.2, y: 6.05, w: 5.6, h: 0.65, fontSize: 13, valign: "middle" });
   T(s, "76%", { x: 7.0, y: 6.05, w: 1.15, h: 0.65, fontSize: 28, bold: true, color: C.accent1, valign: "middle" });
   T(s, [{ text: "行业龙头会员复购率（2025）", options: { bold: true, color: C.text2, breakLine: true } }, { text: "渠道已经留得住人，品牌要让自己被记住", options: { fontSize: 10, color: C.accent3 } }],
