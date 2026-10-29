@@ -73,22 +73,21 @@ const CORE = "如何让 18–25 岁年轻人在量贩零食店第一次尝鲜美
 
   // ---------- P3 购买路径 ----------
   s = pres.addSlide({ masterName: "内容页", sectionTitle: "背景与问题" });
-  s.addText("年轻人五步买零食，美枣王步步掉队", { placeholder: "title" });
+  s.addText("年轻人四步买零食，美枣王步步掉队", { placeholder: "title" });
   s.addText("理论：购买决策路径", { placeholder: "theory" });
   s.addText("来源：同龄人访谈，n=15（组内经验萃取 7 人 + 身边同龄人 8 人）", { placeholder: "source" });
   const steps = [
-    { h: "线上种草", d: "刷小红书、抖音看到测评", k: "线上几乎没人种草美枣王", ev: ["10/15", "最近一次在小红书被种草"] },
-    { h: "到店尝鲜", d: "去最近的量贩店买一小包", k: "店里不显眼，找不到", ev: ["15/15", "第一次都在附近量贩店买"] },
-    { h: "第一口判断", d: "不好吃就不会再买", k: "“枣”像养生品，不想试", ev: ["“好吃就会回购”", "F8，大三"] },
-    { h: "吃后验证", d: "查配料表、含糖量", k: "包装没回答健康问题", ev: ["9/15", "吃完会查配料或含糖量"] },
-    { h: "复购留存", d: "认准一个品牌或一家店", k: "没有再买的理由", ev: ["“同一家店一直有货”", "F1，大三"] },
+    { h: "种草", d: "刷小红书、抖音看到测评", k: "线上几乎没人种草美枣王", ev: ["10/15", "最近一次在小红书被种草"] },
+    { h: "尝鲜", d: "去最近的量贩店买一小包，第一口不好吃就不再买", k: "店里找不到；“枣”像养生品，不想试", ev: ["15/15", "第一次都在附近量贩店买"] },
+    { h: "验证", d: "吃完查配料表、含糖量", k: "包装没回答健康问题", ev: ["9/15", "吃完会查配料或含糖量"] },
+    { h: "复购", d: "认准一个品牌或一家店", k: "没有再买的理由", ev: ["“同一家店一直有货”", "F1，大三"] },
   ];
-  const nw = 2.2, ng = 0.283;
-  for (let i = 0; i < 5; i++) {
+  const nw = 2.85, ng = 0.243;
+  for (let i = 0; i < 4; i++) {
     const st = steps[i], x = 0.6 + i * (nw + ng), cx = x + nw / 2;
     s.addShape(pres.shapes.OVAL, { x: cx - 0.3, y: 1.4, w: 0.6, h: 0.6, fill: { color: C.text2 }, objectName: `step-${i + 1}` });
     T(s, String(i + 1), { x: cx - 0.3, y: 1.4, w: 0.6, h: 0.6, fontSize: 18, bold: true, color: C.background2, align: "center", valign: "middle" });
-    if (i < 4) s.addShape(pres.shapes.LINE, { x: cx + 0.4, y: 1.7, w: nw + ng - 0.8, h: 0, line: { color: HEX.dk2, width: 1.5, endArrowType: "triangle" } });
+    if (i < 3) s.addShape(pres.shapes.LINE, { x: cx + 0.4, y: 1.7, w: nw + ng - 0.8, h: 0, line: { color: HEX.dk2, width: 1.5, endArrowType: "triangle" } });
     T(s, st.h, { x, y: 2.1, w: nw, h: 0.4, fontSize: 16, bold: true, color: C.text2, align: "center", valign: "middle" });
     T(s, st.d, { x, y: 2.5, w: nw, h: 0.55, fontSize: 13, color: C.text1, align: "center", valign: "top" });
     s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y: 3.15, w: nw, h: 1.1, rectRadius: 0.08, fill: { color: C.accent5 }, objectName: `stuck-${i + 1}` });
@@ -101,8 +100,8 @@ const CORE = "如何让 18–25 岁年轻人在量贩零食店第一次尝鲜美
   }
   T(s, "同龄人证据", { x: 0.6, y: 6.0, w: 2, h: 0.3, fontSize: 10, color: C.accent3 });
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: 6.3, w: 12.13, h: 0.5, rectRadius: 0.08, fill: { color: C.text2 }, objectName: "path-conclusion" });
-  T(s, "种草→尝鲜→第一口→验证→复购：问题不只在“第一次买”，而在买完之后没有被记住", { x: 0.85, y: 6.3, w: 11.6, h: 0.5, fontSize: 15, bold: true, color: C.background2, valign: "middle" });
-  s.addNotes("【A｜约 30 秒】用自己的经历讲：我上周刷小红书看到一款新零食，第二天就去了学校门口的零食店，先买一小包；吃完第一件事是翻过来看配料表。这就是年轻人买零食的五步：种草、尝鲜、第一口、验证、复购。我们访谈的 15 个人里，10 个最近一次是在小红书被种草，9 个吃完会查配料或含糖量。而美枣王在每一步都掉队：线上没人种草，店里不显眼，枣像养生品，包装没回答健康问题，也没有再买的理由。");
+  T(s, "种草→尝鲜→验证→复购：问题不只在“第一次买”，而在买完之后没有被记住", { x: 0.85, y: 6.3, w: 11.6, h: 0.5, fontSize: 15, bold: true, color: C.background2, valign: "middle" });
+  s.addNotes("【A｜约 30 秒】用自己的经历讲：我上周刷小红书看到一款新零食，第二天就去了学校门口的零食店，先买一小包；吃完第一件事是翻过来看配料表。这就是年轻人买零食的四步：种草、尝鲜、验证、复购。我们访谈的 15 个人里，10 个最近一次是在小红书被种草，9 个吃完会查配料或含糖量。而美枣王在每一步都掉队：线上没人种草，店里不显眼，枣像养生品，包装没回答健康问题，也没有再买的理由。");
 
   // ---------- P4 核心问题 ----------
   s = pres.addSlide({ masterName: "内容页", sectionTitle: "背景与问题" });
@@ -149,7 +148,7 @@ const CORE = "如何让 18–25 岁年轻人在量贩零食店第一次尝鲜美
   s.addText("方法：定性优先 · 交叉验证", { placeholder: "theory" });
   s.addText("来源：同龄人访谈，n=15；丁其磊访谈逐字稿；小红书笔记 AI 分析（人工复核）；门店走访", { placeholder: "source" });
   const ms = [
-    { ic: FaComments, h: "同龄人访谈", d: "组内经验萃取 7 人 + 身边同龄人 8 人，同样 4 个问题", u: "画出五步购买路径" },
+    { ic: FaComments, h: "同龄人访谈", d: "组内经验萃取 7 人 + 身边同龄人 8 人，同样 4 个问题", u: "画出四步购买路径" },
     { ic: FaHashtag, h: "小红书内容分析", d: "AI 归纳“量贩零食”“枣零食”笔记的热门卖点和评论关注点，人工复核", u: "定种草卖点（方案①）" },
     { ic: FaUserTie, h: "专家访谈", d: "企业导师丁其磊老师访谈，整理成逐字稿", u: "判断渠道规则和 AI 边界（方案②④）" },
     { ic: FaWalking, h: "门店走访", d: "走访学校周边量贩零食店，记录新品陈列位置", u: "设计货架方案（方案②）" },
